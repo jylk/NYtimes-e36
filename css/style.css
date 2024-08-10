@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.outer-wraper{
+    margin-left: 30px ; 
+     margin-right: 30px;      
+}
+.header-top-row{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-icon{
+    background: none;
+    border: 0px;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 8px 9px 9px;
+    }
+    .nav-icon:hover{
+        background-color: rgb(243, 243, 243);
+    }
+    .header-top-nav ul li{
+        display: inline;
+        list-style: none;
+
+    }
+    .header-top-nav ul li a{
+        text-decoration: none;
+        color: black;
+        padding: 5px 7px;           
+    }
+    .header-top-nav ul li a:hover{
+        background-color: #f7f7f7;
+        border-radius: 5px;
+    }
+    .header-top-right-column {
+       display: flex;
+    }
+    .header-top-right-column a{
+       background-color: rgb(86, 123, 149);
+       text-decoration: none;
+       color: white;
+       font-size: 12px;
+       font-weight: bold;
+       display: inline;
+       padding: 8px 12px;
+       border-radius: 3px;
+       display: block;
+      }
+      .header-top-right-column a:first-child{
+        margin-right: 10px;
+      }
+      .d-flex{
+        display: flex;
+      }
+      .justify-between{
+        justify-content: space-between;
+      }
+      .text-bold{
+        font-weight: bold;
+
+      }
+      .f-12{
+        font-size: 12px;
+      }
+      .paper-link{
+        text-decoration: none;
+        font-size: 11px;
+        color: black;
+      }
+      .paper-link:hover{
+        color: rgb(83, 83, 83);
+      }
+      .mt-5{
+        margin-top: 5px;
+      }
+      .header-logo-column a svg{
+        width: 430px;
+
+      }
+      .header-rows-columns{
+        display: flex; 
+        flex-direction: 
+        column; gap: 10px;
+        align-items: center;
+      }
+      .forex{
+        color: rgb(0, 79, 79);
+      }
+      .header-nav{
+        text-align: center;
+        border-top: solid 1px #ccc;
+        border-bottom: solid 1px #232121;
+        height: 50px;
+      }
+      .header-nav ul li{
+         list-style: none;
+         display: inline-block;
+      }
+      .header-nav ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        display: block;
+        padding: 3px 10px;
+      }
+      .header-nav ul li a:hover{
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+      }
+      .content-wraper{
+        border-top: solid 1px black;
+        margin-top: 3px;
+      }
+      .flex-1{
+        flex: 1;
+      }
+      .flex-2{
+        flex: 2;
+      }
